@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/main-logo.png'
 
 import './navbar.css'
 //  BEM  => Block Element Modifier
@@ -9,10 +9,11 @@ import './navbar.css'
 const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#wgpt3">What is GPT3?</a></p>
-    <p><a href="#possiblity">Open AI</a></p>
-    <p><a href="#features">Case Studies</a></p>
-    <p><a href="#blog">Library</a></p>
+    <p><a href="#wgpt3">Oiler.uz bu nima?</a></p>
+    <p><a href="#possiblity">Blog</a></p>
+    <p><a href="#features">Foydalanish qo'llanmasi</a></p>
+    <p><a href="#features">FAQ</a></p>
+    <p><a href="#blog">Maqolalar</a></p>
   </>
 )
 
@@ -29,8 +30,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='gpt3__navbar-sign'>
-        <p>Sign in</p>
-        <button type='button'>Sing up</button>
+        <p>Ro'yxatdan o'tish</p>
+        <button type='button'>Kirish</button>
       </div>
       <div className='gpt3__navbar-menu'>
         {toggleMenu
